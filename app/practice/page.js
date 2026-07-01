@@ -14,7 +14,7 @@ import {
   getWeakWords,
   getDueWords,
   saveSession,
-} from '@/lib/db';
+} from '@/lib/syncDb';
 import wordBank from '@/data/wordBank.json';
 import styles from './page.module.css';
 

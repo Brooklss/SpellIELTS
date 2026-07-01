@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { getStats, getRecentSessions } from '@/lib/db';
+import { getStats, getRecentSessions } from '@/lib/syncDb';
+import SyncBanner from '@/components/SyncBanner';
 import styles from './page.module.css';
 
 export default function Dashboard() {
@@ -27,6 +28,7 @@ export default function Dashboard() {
 
   return (
     <div className="page-container">
+      <SyncBanner />
       <div className="page-header">
         <h1>Dashboard</h1>
         <p>Track your IELTS spelling progress and start practicing.</p>

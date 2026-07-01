@@ -1,10 +1,15 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { getSetting, setSetting, resetAllProgress } from '@/lib/db';
+import { getSetting, setSetting, resetAllProgress } from '@/lib/syncDb';
+import { cloudDeleteAllUserData } from '@/lib/cloudDb';
+import { useAuth } from '@/context/AuthContext';
+import AuthModal from '@/components/AuthModal';
 import styles from './page.module.css';
 
 export default function SettingsPage() {
+  const { user, isSignedIn, signOut } = useAuth();
+  const [showAuthModal, setShowAuthModal] = useState(false);
   const [defaultAccent, setDefaultAccent] = useState('british');
   const [examNoise, setExamNoise] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
@@ -40,10 +45,23 @@ export default function SettingsPage() {
     }
     await resetAllProgress();
     setConfirmReset(false);
-    alert('All progress has been reset.');
+    alert('Local progress has been reset.');
+  };
+
+  const [confirmDeleteCloud, setConfirmDeleteCloud] = useState(false);
+  const handleDeleteCloud = async () => {
+    if (!confirmDeleteCloud) { setConfirmDeleteCloud(true); return; }
+    if (user) {
+      await cloudDeleteAllUserData(user.uid);
+    }
+    await resetAllProgress();
+    await signOut();
+    setConfirmDeleteCloud(false);
+    alert('All data deleted and you have been signed out.');
   };
 
   return (
+    <>
     <div className="page-container">
       <div className="page-header">
         <h1>Settings</h1>
@@ -111,14 +129,40 @@ export default function SettingsPage() {
             </div>
           </section>
 
+          {/* Account */}
+          <section className={`card ${styles.section}`}>
+            <h2 className={styles.sectionTitle}>Account</h2>
+            <div className={styles.settingRow}>
+              <div className={styles.settingInfo}>
+                <span className={styles.settingLabel}>
+                  {isSignedIn ? 'Signed in' : 'Not signed in'}
+                </span>
+                <p className={styles.settingDesc}>
+                  {isSignedIn
+                    ? `${user.displayName || user.email} — progress is syncing to the cloud.`
+                    : 'Sign in to back up and sync your progress across devices.'}
+                </p>
+              </div>
+              {isSignedIn ? (
+                <button id="settings-signout-btn" className="btn btn-secondary" onClick={signOut}>
+                  Sign Out
+                </button>
+              ) : (
+                <button id="settings-signin-btn" className="btn btn-primary" onClick={() => setShowAuthModal(true)}>
+                  Sign In
+                </button>
+              )}
+            </div>
+          </section>
+
           {/* Data */}
           <section className={`card ${styles.section}`}>
             <h2 className={styles.sectionTitle}>Data</h2>
             <div className={styles.settingRow}>
               <div className={styles.settingInfo}>
-                <span className={styles.settingLabel}>Reset All Progress</span>
+                <span className={styles.settingLabel}>Reset Local Progress</span>
                 <p className={styles.settingDesc}>
-                  Permanently delete all your word progress, error logs, and session history. This cannot be undone.
+                  Clear all local word progress, error logs, and session history. Cloud data is unaffected.
                 </p>
               </div>
               <button
@@ -131,17 +175,43 @@ export default function SettingsPage() {
                   color: 'var(--red)',
                 } : {}}
               >
-                {confirmReset ? '⚠️ Confirm Reset' : 'Reset Progress'}
+                {confirmReset ? '⚠️ Confirm Reset' : 'Reset Local'}
               </button>
             </div>
             {confirmReset && (
-              <button
-                className="btn btn-ghost"
-                onClick={() => setConfirmReset(false)}
-                style={{ marginTop: 8 }}
-              >
+              <button className="btn btn-ghost" onClick={() => setConfirmReset(false)} style={{ marginTop: 8 }}>
                 Cancel
               </button>
+            )}
+            {isSignedIn && (
+              <>
+                <hr className="divider" />
+                <div className={styles.settingRow}>
+                  <div className={styles.settingInfo}>
+                    <span className={styles.settingLabel} style={{ color: 'var(--red)' }}>Delete All Data</span>
+                    <p className={styles.settingDesc}>
+                      Permanently delete ALL progress from this device AND the cloud. Cannot be undone.
+                    </p>
+                  </div>
+                  <button
+                    id="delete-cloud-btn"
+                    className="btn"
+                    onClick={handleDeleteCloud}
+                    style={{
+                      background: confirmDeleteCloud ? 'rgba(248,113,113,0.15)' : undefined,
+                      borderColor: 'rgba(248,113,113,0.4)',
+                      color: 'var(--red)',
+                    }}
+                  >
+                    {confirmDeleteCloud ? '⚠️ Confirm Delete' : 'Delete Everything'}
+                  </button>
+                </div>
+                {confirmDeleteCloud && (
+                  <button className="btn btn-ghost" onClick={() => setConfirmDeleteCloud(false)} style={{ marginTop: 8 }}>
+                    Cancel
+                  </button>
+                )}
+              </>
             )}
           </section>
 
@@ -163,7 +233,7 @@ export default function SettingsPage() {
               </div>
               <div className={styles.aboutItem}>
                 <span className={styles.aboutLabel}>Database</span>
-                <span className={styles.aboutValue}>IndexedDB (local)</span>
+                <span className={styles.aboutValue}>IndexedDB + Firebase</span>
               </div>
               <div className={styles.aboutItem}>
                 <span className={styles.aboutLabel}>SRS Algorithm</span>
@@ -174,5 +244,10 @@ export default function SettingsPage() {
         </div>
       )}
     </div>
+
+    {showAuthModal && (
+      <AuthModal onClose={() => setShowAuthModal(false)} onSuccess={() => setShowAuthModal(false)} />
+    )}
+    </>
   );
 }

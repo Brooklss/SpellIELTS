@@ -1,5 +1,7 @@
 import './globals.css';
 import Navbar from '@/components/Navbar';
+import { AuthProvider } from '@/context/AuthContext';
+import SyncWatcher from '@/components/SyncWatcher';
 
 export const metadata = {
   title: 'SpellIELTS — IELTS Spelling & Dictation Practice',
@@ -16,8 +18,11 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body>
-        <Navbar />
-        <main>{children}</main>
+        <AuthProvider>
+          <SyncWatcher />
+          <Navbar />
+          <main>{children}</main>
+        </AuthProvider>
       </body>
     </html>
   );

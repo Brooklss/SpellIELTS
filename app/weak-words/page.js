@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { getWeakWords } from '@/lib/db';
+import { getWeakWords } from '@/lib/syncDb';
 import { formatNextReview } from '@/lib/srs';
 import wordBank from '@/data/wordBank.json';
 import styles from './page.module.css';

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './Navbar.module.css';
+import UserAvatar from './UserAvatar';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Dashboard', id: 'nav-dashboard' },
@@ -36,7 +37,10 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
+        <UserAvatar />
       </div>
     </nav>
   );
 }
+
