@@ -1,0 +1,114 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modeToggle {
+  display: flex;
+  border: 1px solid #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.modeBtn {
+  background: transparent;
+  border: none;
+  color: #666;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.modeBtn.active {
+  background: #fff;
+  color: #000;
+}
+
+.modeBtn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.accentSelect {
+  background: #111;
+  border: 1px solid #333;
+  color: #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.accentSelect:hover,
+.accentSelect:focus {
+  border-color: #555;
+}
+
+.playBtn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.playBtn::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.playBtn:hover {
+  background: #fff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.playBtn:hover::before {
+  border-color: #fff;
+}
+
+.playBtn.playing {
+  background: #fff;
+  color: #000;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(255,255,255,0); }
+}
+
+.playCount {
+  font-size: 11px;
+  color: #444;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

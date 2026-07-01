@@ -1,0 +1,2102 @@
+[
+  {
+    "id": 1,
+    "word": "accommodation",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The university provides accommodation for all first-year students."
+  },
+  {
+    "id": 2,
+    "word": "apartment",
+    "category": "Accommodation",
+    "difficulty": "medium",
+    "sentence": "She rented a small apartment near the city centre."
+  },
+  {
+    "id": 3,
+    "word": "dormitory",
+    "category": "Accommodation",
+    "difficulty": "medium",
+    "sentence": "International students often live in a dormitory on campus."
+  },
+  {
+    "id": 4,
+    "word": "residential",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The residential area is quiet and peaceful."
+  },
+  {
+    "id": 5,
+    "word": "facilities",
+    "category": "Accommodation",
+    "difficulty": "medium",
+    "sentence": "The hotel offers excellent facilities for guests."
+  },
+  {
+    "id": 6,
+    "word": "neighbourhood",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "They moved to a friendly neighbourhood in the suburbs."
+  },
+  {
+    "id": 7,
+    "word": "furnished",
+    "category": "Accommodation",
+    "difficulty": "medium",
+    "sentence": "The fully furnished flat was ready to move into immediately."
+  },
+  {
+    "id": 8,
+    "word": "tenancy",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The tenancy agreement was signed for twelve months."
+  },
+  {
+    "id": 9,
+    "word": "landlord",
+    "category": "Accommodation",
+    "difficulty": "easy",
+    "sentence": "The landlord agreed to fix the broken heating system."
+  },
+  {
+    "id": 10,
+    "word": "premises",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "Smoking is not allowed on the premises."
+  },
+  {
+    "id": 11,
+    "word": "subsidy",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The government offers a housing subsidy for low-income families."
+  },
+  {
+    "id": 12,
+    "word": "mortgage",
+    "category": "Accommodation",
+    "difficulty": "medium",
+    "sentence": "They took out a mortgage to buy their first home."
+  },
+  {
+    "id": 13,
+    "word": "adjacent",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The library is adjacent to the student dormitory."
+  },
+  {
+    "id": 14,
+    "word": "vicinity",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "There are several restaurants in the vicinity of the hotel."
+  },
+  {
+    "id": 15,
+    "word": "occupancy",
+    "category": "Accommodation",
+    "difficulty": "hard",
+    "sentence": "The maximum occupancy of the room is four people."
+  },
+  {
+    "id": 16,
+    "word": "environment",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "We must protect the environment for future generations."
+  },
+  {
+    "id": 17,
+    "word": "pollution",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "Air pollution in large cities is a growing concern."
+  },
+  {
+    "id": 18,
+    "word": "sustainability",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Sustainability is at the core of modern urban planning."
+  },
+  {
+    "id": 19,
+    "word": "biodiversity",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Deforestation threatens biodiversity in tropical regions."
+  },
+  {
+    "id": 20,
+    "word": "renewable",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "Solar energy is a renewable source of power."
+  },
+  {
+    "id": 21,
+    "word": "conservation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Conservation efforts have helped protect endangered species."
+  },
+  {
+    "id": 22,
+    "word": "greenhouse",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "Greenhouse gas emissions contribute to global warming."
+  },
+  {
+    "id": 23,
+    "word": "deforestation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Deforestation is one of the leading causes of habitat loss."
+  },
+  {
+    "id": 24,
+    "word": "ecosystem",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Every organism plays a role in the ecosystem."
+  },
+  {
+    "id": 25,
+    "word": "contamination",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Water contamination poses a serious health risk."
+  },
+  {
+    "id": 26,
+    "word": "emissions",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "Carbon emissions must be reduced to combat climate change."
+  },
+  {
+    "id": 27,
+    "word": "ecological",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "The dam had a significant ecological impact on the river."
+  },
+  {
+    "id": 28,
+    "word": "precipitation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Annual precipitation levels have decreased in many regions."
+  },
+  {
+    "id": 29,
+    "word": "depletion",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Ozone depletion leads to increased ultraviolet radiation."
+  },
+  {
+    "id": 30,
+    "word": "incineration",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Waste incineration can produce harmful by-products."
+  },
+  {
+    "id": 31,
+    "word": "curriculum",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "The curriculum was updated to include digital literacy skills."
+  },
+  {
+    "id": 32,
+    "word": "academic",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "Her academic record impressed the admissions committee."
+  },
+  {
+    "id": 33,
+    "word": "scholarship",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "He was awarded a scholarship to study abroad."
+  },
+  {
+    "id": 34,
+    "word": "institution",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "The institution has a long history of academic excellence."
+  },
+  {
+    "id": 35,
+    "word": "assessment",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Continuous assessment helps monitor student progress."
+  },
+  {
+    "id": 36,
+    "word": "qualification",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "A degree is often the minimum qualification required."
+  },
+  {
+    "id": 37,
+    "word": "compulsory",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Attendance is compulsory for all registered students."
+  },
+  {
+    "id": 38,
+    "word": "pedagogy",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Modern pedagogy emphasises student-centred learning."
+  },
+  {
+    "id": 39,
+    "word": "literacy",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "Improving literacy rates is a national priority."
+  },
+  {
+    "id": 40,
+    "word": "dissertation",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "She spent two years writing her doctoral dissertation."
+  },
+  {
+    "id": 41,
+    "word": "seminar",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "Students attended a weekly seminar on research methods."
+  },
+  {
+    "id": 42,
+    "word": "enrolment",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Enrolment figures at the university increased this year."
+  },
+  {
+    "id": 43,
+    "word": "vocational",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Vocational training prepares students for specific careers."
+  },
+  {
+    "id": 44,
+    "word": "prerequisite",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Mathematics is a prerequisite for the engineering course."
+  },
+  {
+    "id": 45,
+    "word": "extracurricular",
+    "category": "Education",
+    "difficulty": "hard",
+    "sentence": "Extracurricular activities develop students social skills."
+  },
+  {
+    "id": 46,
+    "word": "technology",
+    "category": "Technology",
+    "difficulty": "medium",
+    "sentence": "Technology has transformed the way we communicate."
+  },
+  {
+    "id": 47,
+    "word": "innovation",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Innovation drives economic growth in the modern era."
+  },
+  {
+    "id": 48,
+    "word": "artificial",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Artificial intelligence is reshaping many industries."
+  },
+  {
+    "id": 49,
+    "word": "surveillance",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "CCTV surveillance cameras are installed throughout the city."
+  },
+  {
+    "id": 50,
+    "word": "algorithm",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "The search engine uses a complex algorithm to rank results."
+  },
+  {
+    "id": 51,
+    "word": "infrastructure",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Investment in digital infrastructure is crucial for development."
+  },
+  {
+    "id": 52,
+    "word": "automation",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Factory automation has replaced many manual jobs."
+  },
+  {
+    "id": 53,
+    "word": "satellite",
+    "category": "Technology",
+    "difficulty": "medium",
+    "sentence": "The satellite provides internet access to remote areas."
+  },
+  {
+    "id": 54,
+    "word": "cybersecurity",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Cybersecurity threats are becoming increasingly sophisticated."
+  },
+  {
+    "id": 55,
+    "word": "renewable",
+    "category": "Technology",
+    "difficulty": "medium",
+    "sentence": "Renewable energy technology is advancing rapidly."
+  },
+  {
+    "id": 56,
+    "word": "nanotechnology",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "Nanotechnology has applications in medicine and manufacturing."
+  },
+  {
+    "id": 57,
+    "word": "semiconductor",
+    "category": "Technology",
+    "difficulty": "hard",
+    "sentence": "The global semiconductor shortage affected car production."
+  },
+  {
+    "id": 58,
+    "word": "pharmaceutical",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Pharmaceutical companies invest billions in drug research."
+  },
+  {
+    "id": 59,
+    "word": "obesity",
+    "category": "Health",
+    "difficulty": "medium",
+    "sentence": "Obesity is linked to a higher risk of heart disease."
+  },
+  {
+    "id": 60,
+    "word": "vaccination",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Mass vaccination programmes have eradicated many diseases."
+  },
+  {
+    "id": 61,
+    "word": "malnutrition",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Malnutrition remains a serious problem in developing nations."
+  },
+  {
+    "id": 62,
+    "word": "epidemiology",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Epidemiology studies the spread of diseases in populations."
+  },
+  {
+    "id": 63,
+    "word": "cardiovascular",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Regular exercise reduces the risk of cardiovascular disease."
+  },
+  {
+    "id": 64,
+    "word": "psychiatric",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Psychiatric disorders require specialist treatment and support."
+  },
+  {
+    "id": 65,
+    "word": "sanitation",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Poor sanitation contributes to the spread of infectious diseases."
+  },
+  {
+    "id": 66,
+    "word": "immunisation",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Childhood immunisation programmes save millions of lives."
+  },
+  {
+    "id": 67,
+    "word": "sedentary",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "A sedentary lifestyle increases the risk of chronic illness."
+  },
+  {
+    "id": 68,
+    "word": "nutritional",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Nutritional guidance is provided by a registered dietitian."
+  },
+  {
+    "id": 69,
+    "word": "respiratory",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Air pollution causes respiratory problems in urban residents."
+  },
+  {
+    "id": 70,
+    "word": "rehabilitation",
+    "category": "Health",
+    "difficulty": "hard",
+    "sentence": "Rehabilitation programmes help patients recover after surgery."
+  },
+  {
+    "id": 71,
+    "word": "economy",
+    "category": "Economics",
+    "difficulty": "medium",
+    "sentence": "The global economy grew by three percent last year."
+  },
+  {
+    "id": 72,
+    "word": "inflation",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "High inflation erodes the purchasing power of consumers."
+  },
+  {
+    "id": 73,
+    "word": "expenditure",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Government expenditure on healthcare increased significantly."
+  },
+  {
+    "id": 74,
+    "word": "unemployment",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Unemployment rates fell to their lowest level in a decade."
+  },
+  {
+    "id": 75,
+    "word": "recession",
+    "category": "Economics",
+    "difficulty": "medium",
+    "sentence": "The country fell into recession after the financial crisis."
+  },
+  {
+    "id": 76,
+    "word": "taxation",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Progressive taxation ensures wealthier citizens pay more."
+  },
+  {
+    "id": 77,
+    "word": "entrepreneur",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "The entrepreneur launched a successful start-up business."
+  },
+  {
+    "id": 78,
+    "word": "investment",
+    "category": "Economics",
+    "difficulty": "medium",
+    "sentence": "Foreign investment boosted the nation's economic growth."
+  },
+  {
+    "id": 79,
+    "word": "productivity",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Improving worker productivity is a key economic challenge."
+  },
+  {
+    "id": 80,
+    "word": "deficit",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "The trade deficit widened due to increased imports."
+  },
+  {
+    "id": 81,
+    "word": "monopoly",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "The government broke up the telecommunications monopoly."
+  },
+  {
+    "id": 82,
+    "word": "commodity",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Oil is a global commodity with volatile prices."
+  },
+  {
+    "id": 83,
+    "word": "globalisation",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Globalisation has increased trade between nations."
+  },
+  {
+    "id": 84,
+    "word": "privatisation",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Privatisation of state enterprises was controversial."
+  },
+  {
+    "id": 85,
+    "word": "remittance",
+    "category": "Economics",
+    "difficulty": "hard",
+    "sentence": "Remittance payments support many families in developing countries."
+  },
+  {
+    "id": 86,
+    "word": "government",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The government introduced new policies to tackle inequality."
+  },
+  {
+    "id": 87,
+    "word": "democracy",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Freedom of speech is a cornerstone of democracy."
+  },
+  {
+    "id": 88,
+    "word": "legislation",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "New legislation was passed to protect workers rights."
+  },
+  {
+    "id": 89,
+    "word": "immigration",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Immigration policy has become a major political debate."
+  },
+  {
+    "id": 90,
+    "word": "inequality",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Income inequality continues to rise in many countries."
+  },
+  {
+    "id": 91,
+    "word": "discrimination",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Racial discrimination in the workplace is illegal."
+  },
+  {
+    "id": 92,
+    "word": "incarceration",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "High incarceration rates reflect deeper social problems."
+  },
+  {
+    "id": 93,
+    "word": "philanthropy",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Corporate philanthropy can help address social challenges."
+  },
+  {
+    "id": 94,
+    "word": "bureaucracy",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Excessive bureaucracy slows down government services."
+  },
+  {
+    "id": 95,
+    "word": "volunteerism",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Volunteerism plays a vital role in community development."
+  },
+  {
+    "id": 96,
+    "word": "urbanisation",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Rapid urbanisation has created pressure on city infrastructure."
+  },
+  {
+    "id": 97,
+    "word": "sovereignty",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "The treaty respected the sovereignty of all member states."
+  },
+  {
+    "id": 98,
+    "word": "migration",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Economic migration has shaped the demographics of many cities."
+  },
+  {
+    "id": 99,
+    "word": "referendum",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "A referendum was held to decide on the proposed constitutional change."
+  },
+  {
+    "id": 100,
+    "word": "multicultural",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "London is one of the most multicultural cities in the world."
+  },
+  {
+    "id": 101,
+    "word": "February",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "The conference is scheduled for the fourteenth of February."
+  },
+  {
+    "id": 102,
+    "word": "Wednesday",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "The meeting takes place every Wednesday morning."
+  },
+  {
+    "id": 103,
+    "word": "Thursday",
+    "category": "Numbers & Dates",
+    "difficulty": "easy",
+    "sentence": "The deadline is Thursday at five o'clock."
+  },
+  {
+    "id": 104,
+    "word": "September",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "The academic year begins in September."
+  },
+  {
+    "id": 105,
+    "word": "millennium",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "The project was completed at the turn of the millennium."
+  },
+  {
+    "id": 106,
+    "word": "fortnight",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "The report is submitted once a fortnight."
+  },
+  {
+    "id": 107,
+    "word": "biannual",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "The biannual review takes place in June and December."
+  },
+  {
+    "id": 108,
+    "word": "quarterly",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "Quarterly earnings reports are published every three months."
+  },
+  {
+    "id": 109,
+    "word": "percentage",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "A large percentage of the population owns a smartphone."
+  },
+  {
+    "id": 110,
+    "word": "approximately",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "Approximately three thousand students attend the university."
+  },
+  {
+    "id": 111,
+    "word": "sequential",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "The steps must be completed in sequential order."
+  },
+  {
+    "id": 112,
+    "word": "chronological",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "Events were listed in chronological order in the report."
+  },
+  {
+    "id": 113,
+    "word": "frequency",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "The frequency of the training sessions increased last month."
+  },
+  {
+    "id": 114,
+    "word": "proportion",
+    "category": "Numbers & Dates",
+    "difficulty": "hard",
+    "sentence": "A significant proportion of the budget is spent on education."
+  },
+  {
+    "id": 115,
+    "word": "arithmetic",
+    "category": "Numbers & Dates",
+    "difficulty": "medium",
+    "sentence": "Basic arithmetic skills are tested in the numeracy exam."
+  },
+  {
+    "id": 116,
+    "word": "architecture",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The city is known for its stunning modern architecture."
+  },
+  {
+    "id": 117,
+    "word": "transportation",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "Public transportation is essential in reducing car use."
+  },
+  {
+    "id": 118,
+    "word": "pedestrian",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The pedestrian zone in the city centre is traffic-free."
+  },
+  {
+    "id": 119,
+    "word": "itinerary",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The travel agent prepared a detailed itinerary for the trip."
+  },
+  {
+    "id": 120,
+    "word": "destination",
+    "category": "Urban & Travel",
+    "difficulty": "medium",
+    "sentence": "Paris is one of the most popular tourist destinations."
+  },
+  {
+    "id": 121,
+    "word": "commuter",
+    "category": "Urban & Travel",
+    "difficulty": "medium",
+    "sentence": "Millions of commuters travel into the city every weekday."
+  },
+  {
+    "id": 122,
+    "word": "congestion",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "Traffic congestion in the city centre has worsened."
+  },
+  {
+    "id": 123,
+    "word": "metropolitan",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The metropolitan area has a population of five million."
+  },
+  {
+    "id": 124,
+    "word": "excursion",
+    "category": "Urban & Travel",
+    "difficulty": "medium",
+    "sentence": "The school organised an excursion to the local museum."
+  },
+  {
+    "id": 125,
+    "word": "embarkation",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The embarkation point for the cruise is at Dock 5."
+  },
+  {
+    "id": 126,
+    "word": "junction",
+    "category": "Urban & Travel",
+    "difficulty": "medium",
+    "sentence": "Turn left at the junction to reach the station."
+  },
+  {
+    "id": 127,
+    "word": "municipality",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The municipality is responsible for local road maintenance."
+  },
+  {
+    "id": 128,
+    "word": "suburb",
+    "category": "Urban & Travel",
+    "difficulty": "easy",
+    "sentence": "Many families prefer to live in the suburb where it is quieter."
+  },
+  {
+    "id": 129,
+    "word": "infrastructure",
+    "category": "Urban & Travel",
+    "difficulty": "hard",
+    "sentence": "The city's infrastructure needs significant investment."
+  },
+  {
+    "id": 130,
+    "word": "boulevard",
+    "category": "Urban & Travel",
+    "difficulty": "medium",
+    "sentence": "The hotel is located on a tree-lined boulevard."
+  },
+  {
+    "id": 131,
+    "word": "analysis",
+    "category": "Academic",
+    "difficulty": "medium",
+    "sentence": "A thorough analysis of the data revealed interesting trends."
+  },
+  {
+    "id": 132,
+    "word": "hypothesis",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The researcher developed a hypothesis before conducting the experiment."
+  },
+  {
+    "id": 133,
+    "word": "methodology",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The methodology used in the study was clearly explained."
+  },
+  {
+    "id": 134,
+    "word": "bibliography",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The bibliography at the end lists all sources used."
+  },
+  {
+    "id": 135,
+    "word": "empirical",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Empirical evidence supports the theory presented in the paper."
+  },
+  {
+    "id": 136,
+    "word": "controversial",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The study's findings were highly controversial."
+  },
+  {
+    "id": 137,
+    "word": "implication",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The implications of the research are far-reaching."
+  },
+  {
+    "id": 138,
+    "word": "phenomenon",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The researchers studied the phenomenon over several years."
+  },
+  {
+    "id": 139,
+    "word": "preliminary",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Preliminary results suggest a positive correlation."
+  },
+  {
+    "id": 140,
+    "word": "quantitative",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Quantitative research involves the collection of numerical data."
+  },
+  {
+    "id": 141,
+    "word": "qualitative",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Qualitative data provides deeper insight into human behaviour."
+  },
+  {
+    "id": 142,
+    "word": "correlation",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "There is a strong correlation between income and education."
+  },
+  {
+    "id": 143,
+    "word": "plagiarism",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Plagiarism is a serious academic offence."
+  },
+  {
+    "id": 144,
+    "word": "inference",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "The inference drawn from the data was logical."
+  },
+  {
+    "id": 145,
+    "word": "peer-reviewed",
+    "category": "Academic",
+    "difficulty": "hard",
+    "sentence": "Only peer-reviewed journals were cited in the thesis."
+  },
+  {
+    "id": 146,
+    "word": "tomorrow",
+    "category": "Common Words",
+    "difficulty": "easy",
+    "sentence": "The exam results will be published tomorrow."
+  },
+  {
+    "id": 147,
+    "word": "necessary",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "It is necessary to arrive early to secure a seat."
+  },
+  {
+    "id": 148,
+    "word": "occurrence",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Such an occurrence is rare in modern times."
+  },
+  {
+    "id": 149,
+    "word": "separate",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Please separate the recyclable items from general waste."
+  },
+  {
+    "id": 150,
+    "word": "beginning",
+    "category": "Common Words",
+    "difficulty": "easy",
+    "sentence": "At the beginning of the lecture the professor outlined the syllabus."
+  },
+  {
+    "id": 151,
+    "word": "definitely",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "This approach will definitely improve your results."
+  },
+  {
+    "id": 152,
+    "word": "miscellaneous",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Miscellaneous expenses were recorded under a separate budget heading."
+  },
+  {
+    "id": 153,
+    "word": "conscientious",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "She was a conscientious student who always submitted work on time."
+  },
+  {
+    "id": 154,
+    "word": "privilege",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "It is a privilege to study at such a renowned institution."
+  },
+  {
+    "id": 155,
+    "word": "embarrassment",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The mistake caused considerable embarrassment for the organisation."
+  },
+  {
+    "id": 156,
+    "word": "committee",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "The committee will meet to discuss the proposal next week."
+  },
+  {
+    "id": 157,
+    "word": "questionnaire",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Participants were asked to complete a questionnaire about their habits."
+  },
+  {
+    "id": 158,
+    "word": "possession",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Students must take possession of their accommodation keys on day one."
+  },
+  {
+    "id": 159,
+    "word": "immediately",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Please contact reception immediately if there is a problem."
+  },
+  {
+    "id": 160,
+    "word": "receive",
+    "category": "Common Words",
+    "difficulty": "easy",
+    "sentence": "You will receive a confirmation email within 24 hours."
+  },
+  {
+    "id": 161,
+    "word": "community",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The local community raised funds for the new library."
+  },
+  {
+    "id": 162,
+    "word": "authority",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The local authority approved the planning application."
+  },
+  {
+    "id": 163,
+    "word": "parliament",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Parliament debated the new immigration bill this week."
+  },
+  {
+    "id": 164,
+    "word": "constitution",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "The constitution guarantees freedom of religion for all citizens."
+  },
+  {
+    "id": 165,
+    "word": "welfare",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Social welfare programmes support the most vulnerable in society."
+  },
+  {
+    "id": 166,
+    "word": "criminal",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The criminal justice system was reformed to reduce reoffending."
+  },
+  {
+    "id": 167,
+    "word": "census",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The national census is conducted every ten years."
+  },
+  {
+    "id": 168,
+    "word": "population",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The world population is expected to reach ten billion by 2050."
+  },
+  {
+    "id": 169,
+    "word": "poverty",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Poverty remains a major challenge in many developing regions."
+  },
+  {
+    "id": 170,
+    "word": "unemployment",
+    "category": "Society",
+    "difficulty": "hard",
+    "sentence": "Youth unemployment has risen sharply in recent years."
+  },
+  {
+    "id": 171,
+    "word": "archaeological",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "The archaeological site revealed evidence of an ancient civilisation."
+  },
+  {
+    "id": 172,
+    "word": "photosynthesis",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Plants convert sunlight into energy through photosynthesis."
+  },
+  {
+    "id": 173,
+    "word": "chromosome",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Humans have 46 chromosomes arranged in 23 pairs."
+  },
+  {
+    "id": 174,
+    "word": "hypothesis",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Scientists tested the hypothesis through repeated experiments."
+  },
+  {
+    "id": 175,
+    "word": "molecule",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "A water molecule consists of two hydrogen atoms and one oxygen atom."
+  },
+  {
+    "id": 176,
+    "word": "atmosphere",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The atmosphere protects Earth from harmful radiation."
+  },
+  {
+    "id": 177,
+    "word": "sediment",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Layers of sediment revealed the geological history of the area."
+  },
+  {
+    "id": 178,
+    "word": "electromagnetic",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Electromagnetic waves travel at the speed of light."
+  },
+  {
+    "id": 179,
+    "word": "combustion",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Combustion of fossil fuels releases carbon dioxide into the air."
+  },
+  {
+    "id": 180,
+    "word": "evolution",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "Darwin's theory of evolution changed our understanding of life."
+  },
+  {
+    "id": 181,
+    "word": "gravitational",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Gravitational forces keep planets in orbit around the sun."
+  },
+  {
+    "id": 182,
+    "word": "laboratory",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The experiment was conducted in a controlled laboratory setting."
+  },
+  {
+    "id": 183,
+    "word": "temperature",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The temperature of the solution was measured in Celsius."
+  },
+  {
+    "id": 184,
+    "word": "equilibrium",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "The chemical reaction reached equilibrium after thirty minutes."
+  },
+  {
+    "id": 185,
+    "word": "radioactive",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Radioactive waste must be stored safely for thousands of years."
+  },
+  {
+    "id": 186,
+    "word": "agriculture",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Agriculture accounts for a large proportion of the national economy."
+  },
+  {
+    "id": 187,
+    "word": "manufacturing",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Manufacturing output increased by five percent this quarter."
+  },
+  {
+    "id": 188,
+    "word": "profession",
+    "category": "Work & Industry",
+    "difficulty": "medium",
+    "sentence": "Teaching is a noble profession that shapes future generations."
+  },
+  {
+    "id": 189,
+    "word": "apprenticeship",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "She completed a three-year apprenticeship as an electrician."
+  },
+  {
+    "id": 190,
+    "word": "redundancy",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Workers were offered redundancy packages when the factory closed."
+  },
+  {
+    "id": 191,
+    "word": "entrepreneur",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "An entrepreneur identified a gap in the market and launched a business."
+  },
+  {
+    "id": 192,
+    "word": "remuneration",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The remuneration package included salary bonuses and benefits."
+  },
+  {
+    "id": 193,
+    "word": "occupational",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Occupational health standards must be met by all employers."
+  },
+  {
+    "id": 194,
+    "word": "recruitment",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The recruitment process included three rounds of interviews."
+  },
+  {
+    "id": 195,
+    "word": "internship",
+    "category": "Work & Industry",
+    "difficulty": "medium",
+    "sentence": "She secured an internship at a leading law firm."
+  },
+  {
+    "id": 196,
+    "word": "competitive",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The job market is increasingly competitive for graduates."
+  },
+  {
+    "id": 197,
+    "word": "headquarters",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The company's headquarters is located in central London."
+  },
+  {
+    "id": 198,
+    "word": "subsidiary",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The subsidiary was set up to handle the company's overseas operations."
+  },
+  {
+    "id": 199,
+    "word": "cooperative",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "The workers formed a cooperative to manage the business together."
+  },
+  {
+    "id": 200,
+    "word": "expenditure",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Capital expenditure on new machinery was approved by the board."
+  },
+  {
+    "id": 201,
+    "word": "government",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "The government announced a new education funding programme."
+  },
+  {
+    "id": 202,
+    "word": "exhibition",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The art exhibition attracted thousands of visitors."
+  },
+  {
+    "id": 203,
+    "word": "performance",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "The orchestra's performance received a standing ovation."
+  },
+  {
+    "id": 204,
+    "word": "sculpture",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "The sculpture was carved from a single block of marble."
+  },
+  {
+    "id": 205,
+    "word": "choreography",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The choreography of the dance production was breathtaking."
+  },
+  {
+    "id": 206,
+    "word": "literature",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "English literature is studied at universities worldwide."
+  },
+  {
+    "id": 207,
+    "word": "heritage",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "The region has a rich cultural heritage dating back centuries."
+  },
+  {
+    "id": 208,
+    "word": "documentary",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "The documentary explored the impact of climate change on wildlife."
+  },
+  {
+    "id": 209,
+    "word": "archaeology",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "Archaeology has revealed much about ancient civilisations."
+  },
+  {
+    "id": 210,
+    "word": "manuscript",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The medieval manuscript was carefully preserved in the archive."
+  },
+  {
+    "id": 211,
+    "word": "commemorate",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "A ceremony was held to commemorate the centenary of the event."
+  },
+  {
+    "id": 212,
+    "word": "contemporary",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The gallery specialises in contemporary art from around the world."
+  },
+  {
+    "id": 213,
+    "word": "theatrical",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The theatrical production ran for six months in the West End."
+  },
+  {
+    "id": 214,
+    "word": "protagonist",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The protagonist faces a moral dilemma at the climax of the novel."
+  },
+  {
+    "id": 215,
+    "word": "indigenous",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "Indigenous art forms are being preserved by local communities."
+  },
+  {
+    "id": 216,
+    "word": "sufficient",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "There is sufficient evidence to support this conclusion."
+  },
+  {
+    "id": 217,
+    "word": "significance",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The significance of the discovery was not immediately understood."
+    },
+  {
+    "id": 218,
+    "word": "apparent",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "It was apparent that the two groups had different views."
+  },
+  {
+    "id": 219,
+    "word": "consequence",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The consequence of the policy change was a rise in unemployment."
+  },
+  {
+    "id": 220,
+    "word": "significant",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "There was a significant increase in the number of applications."
+  },
+  {
+    "id": 221,
+    "word": "appropriate",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "It is important to use appropriate vocabulary in academic writing."
+  },
+  {
+    "id": 222,
+    "word": "perspective",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The essay considers the issue from multiple perspectives."
+  },
+  {
+    "id": 223,
+    "word": "alternative",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "There is no viable alternative to the proposed solution."
+  },
+  {
+    "id": 224,
+    "word": "fundamental",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Access to clean water is a fundamental human right."
+  },
+  {
+    "id": 225,
+    "word": "acknowledge",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The report acknowledges the limitations of the methodology."
+  },
+  {
+    "id": 226,
+    "word": "emphasise",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Experts emphasise the importance of early childhood education."
+  },
+  {
+    "id": 227,
+    "word": "demonstrate",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The data demonstrates a clear upward trend."
+  },
+  {
+    "id": 228,
+    "word": "distinguish",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "It is essential to distinguish between correlation and causation."
+  },
+  {
+    "id": 229,
+    "word": "characterise",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The study characterises the main factors influencing behaviour."
+  },
+  {
+    "id": 230,
+    "word": "inevitable",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Technological change is inevitable in a globalised world."
+  },
+  {
+    "id": 231,
+    "word": "guarantee",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Hard work does not guarantee success, but it improves the odds."
+  },
+  {
+    "id": 232,
+    "word": "exaggerate",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The media tends to exaggerate the scale of the problem."
+  },
+  {
+    "id": 233,
+    "word": "accommodate",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The venue can accommodate up to five hundred guests."
+  },
+  {
+    "id": 234,
+    "word": "collaborate",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Scientists from different countries collaborate on this research."
+  },
+  {
+    "id": 235,
+    "word": "approximately",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Approximately forty percent of respondents agreed with the statement."
+  },
+  {
+    "id": 236,
+    "word": "society",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Modern society relies heavily on digital technology."
+  },
+  {
+    "id": 237,
+    "word": "influence",
+    "category": "Society",
+    "difficulty": "medium",
+    "sentence": "Social media has a strong influence on young people today."
+  },
+  {
+    "id": 238,
+    "word": "tradition",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "This tradition has been passed down through many generations."
+  },
+  {
+    "id": 239,
+    "word": "appreciate",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Students appreciate the feedback given by their tutors."
+  },
+  {
+    "id": 240,
+    "word": "responsible",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Each employee is responsible for their own time management."
+  },
+  {
+    "id": 241,
+    "word": "professional",
+    "category": "Work & Industry",
+    "difficulty": "medium",
+    "sentence": "Maintaining a professional attitude is vital in the workplace."
+  },
+  {
+    "id": 242,
+    "word": "management",
+    "category": "Work & Industry",
+    "difficulty": "medium",
+    "sentence": "Effective management requires strong communication skills."
+  },
+  {
+    "id": 243,
+    "word": "environment",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "A positive work environment boosts employee productivity."
+  },
+  {
+    "id": 244,
+    "word": "development",
+    "category": "Work & Industry",
+    "difficulty": "medium",
+    "sentence": "Professional development opportunities attract talented staff."
+  },
+  {
+    "id": 245,
+    "word": "negotiation",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "Skilled negotiation can resolve disputes between parties."
+  },
+  {
+    "id": 246,
+    "word": "partnership",
+    "category": "Work & Industry",
+    "difficulty": "hard",
+    "sentence": "A partnership was formed between the two organisations."
+  },
+  {
+    "id": 247,
+    "word": "achievement",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "Academic achievement is recognised at the annual awards ceremony."
+  },
+  {
+    "id": 248,
+    "word": "knowledge",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "Knowledge of a second language is a valuable skill."
+  },
+  {
+    "id": 249,
+    "word": "assignment",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "The assignment must be submitted by Friday midnight."
+  },
+  {
+    "id": 250,
+    "word": "examination",
+    "category": "Education",
+    "difficulty": "medium",
+    "sentence": "The examination will test reading, listening, and writing skills."
+  },
+  {
+    "id": 251,
+    "word": "particularly",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "This method is particularly effective for visual learners."
+  },
+  {
+    "id": 252,
+    "word": "essentially",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The two approaches are essentially the same."
+  },
+  {
+    "id": 253,
+    "word": "considerably",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Standards have improved considerably over the past decade."
+  },
+  {
+    "id": 254,
+    "word": "apparently",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Apparently the new regulation has not yet been implemented."
+  },
+  {
+    "id": 255,
+    "word": "consistently",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "She consistently achieved the highest marks in her class."
+  },
+  {
+    "id": 256,
+    "word": "substantially",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Costs have increased substantially in the last financial year."
+  },
+  {
+    "id": 257,
+    "word": "specifically",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The policy was specifically designed to reduce carbon emissions."
+  },
+  {
+    "id": 258,
+    "word": "consequently",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The factory closed and consequently many workers lost their jobs."
+  },
+  {
+    "id": 259,
+    "word": "respectively",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The scores were 75 and 82 respectively."
+  },
+  {
+    "id": 260,
+    "word": "occasionally",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "She occasionally attends evening lectures to broaden her knowledge."
+  },
+  {
+    "id": 261,
+    "word": "simultaneously",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The two events occurred simultaneously in different cities."
+  },
+  {
+    "id": 262,
+    "word": "predominately",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The region is predominately rural with few large cities."
+  },
+  {
+    "id": 263,
+    "word": "collectively",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The community collectively decided to ban single-use plastics."
+  },
+  {
+    "id": 264,
+    "word": "relatively",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The cost of living is relatively low compared to other cities."
+  },
+  {
+    "id": 265,
+    "word": "progressively",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "Standards have progressively improved since the reforms were introduced."
+  },
+  {
+    "id": 266,
+    "word": "museum",
+    "category": "Culture & Arts",
+    "difficulty": "easy",
+    "sentence": "The museum houses one of the finest art collections in the world."
+  },
+  {
+    "id": 267,
+    "word": "architecture",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The city's architecture reflects its complex history."
+  },
+  {
+    "id": 268,
+    "word": "philosophy",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "Ancient Greek philosophy influenced modern Western thought."
+  },
+  {
+    "id": 269,
+    "word": "symphony",
+    "category": "Culture & Arts",
+    "difficulty": "medium",
+    "sentence": "Beethoven's Ninth Symphony is one of the most celebrated works."
+  },
+  {
+    "id": 270,
+    "word": "narrative",
+    "category": "Culture & Arts",
+    "difficulty": "hard",
+    "sentence": "The narrative of the novel unfolds over several decades."
+  },
+  {
+    "id": 271,
+    "word": "renewable",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "The country aims to generate all its power from renewable sources."
+  },
+  {
+    "id": 272,
+    "word": "recycling",
+    "category": "Environment",
+    "difficulty": "medium",
+    "sentence": "Recycling rates have improved significantly since the new law."
+  },
+  {
+    "id": 273,
+    "word": "sustainable",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Sustainable farming practices protect soil quality for future use."
+  },
+  {
+    "id": 274,
+    "word": "catastrophic",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "The flood caused catastrophic damage to the coastal town."
+  },
+  {
+    "id": 275,
+    "word": "deterioration",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Rapid deterioration of the reef has alarmed marine biologists."
+  },
+  {
+    "id": 276,
+    "word": "preservation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "The preservation of wetlands is vital for migratory birds."
+  },
+  {
+    "id": 277,
+    "word": "reforestation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "A reforestation project planted one million trees last year."
+  },
+  {
+    "id": 278,
+    "word": "irrigation",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Irrigation systems allow farming in arid regions."
+  },
+  {
+    "id": 279,
+    "word": "geothermal",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Iceland uses geothermal energy to heat most of its buildings."
+  },
+  {
+    "id": 280,
+    "word": "sequestration",
+    "category": "Environment",
+    "difficulty": "hard",
+    "sentence": "Carbon sequestration technology captures CO2 from the atmosphere."
+  },
+  {
+    "id": 281,
+    "word": "measurement",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "Accurate measurement is essential in scientific research."
+  },
+  {
+    "id": 282,
+    "word": "experiment",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The experiment was repeated three times to ensure accuracy."
+  },
+  {
+    "id": 283,
+    "word": "frequency",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The frequency of the wave was measured in hertz."
+  },
+  {
+    "id": 284,
+    "word": "acceleration",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "The acceleration of the car was measured over ten seconds."
+  },
+  {
+    "id": 285,
+    "word": "coefficient",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "The coefficient of friction determines how surfaces interact."
+  },
+  {
+    "id": 286,
+    "word": "perpendicular",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "The two lines are perpendicular and meet at a right angle."
+  },
+  {
+    "id": 287,
+    "word": "decomposition",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Decomposition breaks down organic matter into simpler compounds."
+  },
+  {
+    "id": 288,
+    "word": "fluorescent",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Fluorescent lighting uses less energy than traditional bulbs."
+  },
+  {
+    "id": 289,
+    "word": "condensation",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Condensation forms on cold surfaces when humid air cools."
+  },
+  {
+    "id": 290,
+    "word": "evaporation",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "Evaporation of water from the ocean drives the water cycle."
+  },
+  {
+    "id": 291,
+    "word": "magnetic",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The magnetic field of the Earth protects us from solar winds."
+  },
+  {
+    "id": 292,
+    "word": "velocity",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "The velocity of the projectile was calculated using kinematics."
+  },
+  {
+    "id": 293,
+    "word": "amphibian",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "Frogs are amphibians that live both on land and in water."
+  },
+  {
+    "id": 294,
+    "word": "biosphere",
+    "category": "Science",
+    "difficulty": "hard",
+    "sentence": "Human activity is altering the biosphere at an alarming rate."
+  },
+  {
+    "id": 295,
+    "word": "nitrogen",
+    "category": "Science",
+    "difficulty": "medium",
+    "sentence": "Nitrogen makes up approximately 78 percent of the Earth's atmosphere."
+  },
+  {
+    "id": 296,
+    "word": "representative",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The data must be representative of the entire population."
+  },
+  {
+    "id": 297,
+    "word": "circumstance",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "In certain circumstances, exceptions to the rule may apply."
+  },
+  {
+    "id": 298,
+    "word": "requirement",
+    "category": "Common Words",
+    "difficulty": "medium",
+    "sentence": "Meeting the language requirement is essential for admission."
+  },
+  {
+    "id": 299,
+    "word": "characteristic",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "A key characteristic of good leaders is the ability to listen."
+  },
+  {
+    "id": 300,
+    "word": "interpretation",
+    "category": "Common Words",
+    "difficulty": "hard",
+    "sentence": "The interpretation of the data varied among researchers."
+  }
+]

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Reset ───────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000;
+  --bg-1: #0a0a0a;
+  --bg-2: #111;
+  --bg-3: #1a1a1a;
+  --border: #1f1f1f;
+  --border-light: #2a2a2a;
+  --text: #fff;
+  --text-secondary: #888;
+  --text-muted: #444;
+  --accent: #fff;
+  --green: #4ade80;
+  --red: #f87171;
+  --yellow: #facc15;
+  --blue: #60a5fa;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── Scrollbar ───────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #444; }
+
+/* ── Typography ──────────────────────────────────── */
+h1 { font-size: clamp(28px, 4vw, 48px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+h2 { font-size: clamp(20px, 2.5vw, 28px); font-weight: 600; letter-spacing: -0.02em; }
+h3 { font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+p  { color: var(--text-secondary); }
+
+a { color: inherit; }
+
+/* ── Layout ──────────────────────────────────────── */
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 94px 24px 48px;
+}
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+.page-header p {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* ── Cards ───────────────────────────────────────── */
+.card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: border-color 0.15s;
+}
+
+.card:hover {
+  border-color: var(--border-light);
+}
+
+/* ── Buttons ─────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  background: #e5e5e5;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #888;
+  border-color: #2a2a2a;
+}
+
+.btn-secondary:hover {
+  border-color: #555;
+  color: #ccc;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #555;
+  border-color: transparent;
+}
+
+.btn-ghost:hover {
+  color: #ccc;
+  background: #111;
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ── Badges ──────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badge-green { background: rgba(74,222,128,0.1); color: var(--green); border: 1px solid rgba(74,222,128,0.2); }
+.badge-red { background: rgba(248,113,113,0.1); color: var(--red); border: 1px solid rgba(248,113,113,0.2); }
+.badge-yellow { background: rgba(250,204,21,0.1); color: var(--yellow); border: 1px solid rgba(250,204,21,0.2); }
+.badge-blue { background: rgba(96,165,250,0.1); color: var(--blue); border: 1px solid rgba(96,165,250,0.2); }
+.badge-gray { background: rgba(255,255,255,0.05); color: #555; border: 1px solid #1f1f1f; }
+
+/* ── Stat block ──────────────────────────────────── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.stat-card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Section separator ───────────────────────────── */
+.section-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* ── Grid helpers ────────────────────────────────── */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+@media (max-width: 640px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .page-container { padding: 80px 16px 32px; }
+}
+
+/* ── Divider ─────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 24px 0;
+}
+
+/* ── Empty state ─────────────────────────────────── */
+.empty {
+  text-align: center;
+  padding: 60px 24px;
+  color: var(--text-muted);
+}
+
+.empty-icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+/* ── Animations ──────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+/* ── Table ───────────────────────────────────────── */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th {
+  text-align: left;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+  vertical-align: middle;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover td {
+  background: var(--bg-1);
+}

@@ -1,0 +1,86 @@
+.wrapper {
+  background: #0d0d0d;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  padding: 20px 24px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.row:last-of-type {
+  margin-bottom: 0;
+}
+
+.label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #444;
+  width: 48px;
+  flex-shrink: 0;
+}
+
+.word {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+}
+
+.equal {
+  color: #888;
+}
+
+.missing {
+  color: #f87171;
+  background: rgba(248, 113, 113, 0.12);
+  border-bottom: 2px solid #f87171;
+  padding: 0 1px;
+}
+
+.extra {
+  color: #60a5fa;
+  background: rgba(96, 165, 250, 0.12);
+  border-bottom: 2px solid #60a5fa;
+  padding: 0 1px;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #444;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.missingDot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f87171;
+}
+
+.extraDot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #60a5fa;
+}

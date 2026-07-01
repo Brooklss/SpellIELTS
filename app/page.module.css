@@ -1,0 +1,64 @@
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.bigBtn {
+  padding: 12px 24px;
+  font-size: 15px;
+}
+
+.loading {
+  color: #333;
+  font-size: 13px;
+  padding: 40px 0;
+}
+
+.sessionList {
+  padding: 0;
+  overflow: hidden;
+}
+
+.sessionRow {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 60px;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid #111;
+  transition: background 0.1s;
+}
+
+.sessionRow:last-child {
+  border-bottom: none;
+}
+
+.sessionRow:hover {
+  background: #0a0a0a;
+}
+
+.sessionDate {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.sessionStat {
+  font-size: 13px;
+  color: #555;
+}
+
+.sessionDuration {
+  font-size: 13px;
+  color: #333;
+  text-align: right;
+}
+
+@media (max-width: 480px) {
+  .sessionRow {
+    grid-template-columns: 70px 1fr 1fr;
+  }
+  .sessionDuration { display: none; }
+}

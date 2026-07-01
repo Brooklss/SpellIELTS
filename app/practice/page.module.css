@@ -1,0 +1,254 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.sessionBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sessionStat {
+  font-size: 14px;
+  color: #444;
+  font-variant-numeric: tabular-nums;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filterSelect {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  color: #888;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.filterSelect:hover,
+.filterSelect:focus {
+  border-color: #444;
+  color: #ccc;
+}
+
+.wordLimitWrap input {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  color: #888;
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+  width: 120px;
+  transition: border-color 0.15s;
+}
+
+.wordLimitWrap input::placeholder {
+  color: #333;
+}
+
+.wordLimitWrap input:focus {
+  border-color: #444;
+  color: #ccc;
+}
+
+.progressBar {
+  height: 2px;
+  background: #1a1a1a;
+  border-radius: 1px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: #fff;
+  border-radius: 1px;
+  transition: width 0.4s ease;
+}
+
+.loadingCenter {
+  text-align: center;
+  color: #333;
+  padding: 80px 0;
+  font-size: 14px;
+}
+
+.practiceArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.wordMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wordCounter {
+  font-size: 12px;
+  color: #333;
+  margin-left: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.hint {
+  font-size: 12px;
+  color: #2a2a2a;
+  text-align: center;
+}
+
+.kbd {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 11px;
+  color: #444;
+  font-family: monospace;
+}
+
+.btnRow {
+  display: flex;
+  gap: 10px;
+}
+
+/* ── Result Panel ─────────────────────────────── */
+.resultPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.limitWarning {
+  background: rgba(250, 204, 21, 0.06);
+  border: 1px solid rgba(250, 204, 21, 0.2);
+  border-radius: 8px;
+  padding: 14px 18px;
+  color: var(--yellow);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.correctMsg,
+.typoMsg,
+.wrongMsg {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.resultIcon {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.masteredBadge {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.correctReveal {
+  background: #0d0d0d;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.revealLabel {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #333;
+  flex-shrink: 0;
+}
+
+.revealWord {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+.accentMorph {
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.morphLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.morphBtns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.contextSentence {
+  background: #080808;
+  border: 1px solid #151515;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.sentenceLabel {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2a2a2a;
+  margin-bottom: 8px;
+}
+
+.sentence {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.wordHighlight {
+  background: transparent;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #333;
+  text-underline-offset: 3px;
+}

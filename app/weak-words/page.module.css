@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.tableWrap {
+  padding: 0;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.wordCell {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.failCount {
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.errorSpan {
+  display: flex;
+  align-items: center;
+}
+
+.errorAttempt {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--red);
+  letter-spacing: 0.02em;
+}
